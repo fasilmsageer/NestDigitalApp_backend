@@ -23,4 +23,15 @@ public class VisitorLog {
     private String entrytime;
     private String exittime;
 
+    public VisitorLog(){}
+
+    public VisitorLog(int id, String name, String purpose, String whom_to_meet, String date, String entrytime, String exittime) {
+        this.id = id;
+        this.name = name;
+        this.purpose = purpose;
+        this.whom_to_meet = whom_to_meet;
+        this.date = date;
+        this.entrytime = entrytime;
+        this.exittime = exittime;
+    }
 }
